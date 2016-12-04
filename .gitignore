@@ -1,0 +1,11 @@
+.DS_Store
+settings-development.json
+settings-production.json
+npm-debug.log
+node_modules
+.*-build
+.iml
+.idea
+web/.meteor/local
+web/node_modules
+web/.screenshots
