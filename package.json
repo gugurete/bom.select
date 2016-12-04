@@ -1,11 +1,11 @@
 {
-  "name": "bomselect",
-  "version": "0.0.5",
-  "description": "bomselect",
+  "name": "bom.select",
+  "version": "0.0.1",
+  "description": "bom.select",
   "author": "Robert Jakab <gugurete@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gugurete/bomselect.git"
+    "url": "https://github.com/gugurete/bom.select.git"
   },
   "license": "Apache-2.0",
   "peerDependencies" : {
