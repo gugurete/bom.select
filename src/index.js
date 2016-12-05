@@ -2,7 +2,7 @@ import React from 'react';
 import { InputGroup } from 'react-bootstrap';
 import Typeahead from 'react-bootstrap-typeahead';
 import Highlight from 'react-highlighter';
-//import './style.css';
+import './style.css';
 
 export default class BomSelect extends React.Component {
   componentDidMount() {
