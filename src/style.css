@@ -1,16 +1,19 @@
-.bomselect .bootstrap-typeahead-input input {
-  padding-left: 3px;
+.bomselect {
+  max-width: 380px;
+  margin-right: 11px;
+  border-radius: 4px;
 }
 
 .bomselect .dropdown-menu {
   max-height: calc(100vh - 192px) !important;
   background-color: rgba(255, 255, 255, 0.9);
   width: 378px;
+  margin-left: 1px;
+  margin-top: 1px;
 }
 
-.bomselect {
-  max-width: 380px;
-  margin-right: 11px;
+.bomselect .dropdown-menu .row {
+  padding-left: 2px;
 }
 
 @media screen and (max-width: 410px) {
@@ -19,21 +22,12 @@
   }
 }
 
- .bomselect {
-  border-radius: 4px;
-}
-
- .bomselect:hover {
+.bomselect:hover {
   background-color: rgba(255, 255, 255, 1);
   transition: background-color 200ms ease-in-out;
 }
 
- .bomselect .dropdown-menu {
-  background-color: rgba(255, 255, 255, 0.9);
-  margin-left: 1px;
-}
-
- .bootstrap-typeahead-input {
+.bomselect .bootstrap-typeahead-input {
   height: 40px;
   background-image: none;
   background-color: rgba(255, 255, 255, 0.7);
@@ -43,59 +37,59 @@
   transition: background-color 200ms ease-in-out;
 }
 
- .bootstrap-typeahead-input input {
+.bomselect .bootstrap-typeahead-input input {
   padding-left: 12px;
   color: rgb(51, 51, 51);
 }
 
- .form-control {
+.bomselect .form-control {
   background-image: none;
 }
 
- .form-control input:focus {
+.bomselect .form-control input:focus {
   border: none;
   box-shadow: none;
 }
 
- .form-control:focus {
+.bomselect .form-control:focus {
   border: none;
   box-shadow: none;
 }
 
- .input-group-addon {
+.bomselect .input-group-addon {
   background-color: rgba(255, 255, 255, 0.7);
   border: 1px solid rgba(51, 51, 51, 0.2);
   border-left: none;
   color: rgba(51, 51, 51, 0.5);
 }
 
- .bomselect:hover .input-group-addon {
+.bomselect:hover .input-group-addon {
   color: rgb(51, 51, 51);
   transition: color 200ms ease-in-out;
 }
 
- .bomselect:hover .bootstrap-typeahead-input ::-webkit-input-placeholder {
-  color: rgb(220,220,220);
-  transition: color 200ms ease-in-out;
+.bomselect:hover .bootstrap-typeahead-input ::-webkit-input-placeholder {
+ color: rgb(220,220,220);
+ transition: color 200ms ease-in-out;
 }
- .bomselect:hover .bootstrap-typeahead-input ::-moz-placeholder {
-  color: rgb(220,220,220);
-  transition: color 200ms ease-in-out;
+.bomselect:hover .bootstrap-typeahead-input ::-moz-placeholder {
+ color: rgb(220,220,220);
+ transition: color 200ms ease-in-out;
 }
- .bomselect:hover .bootstrap-typeahead-input :-ms-input-placeholder {
-  color: rgb(220,220,220);
-  transition: color 200ms ease-in-out;
+.bomselect:hover .bootstrap-typeahead-input :-ms-input-placeholder {
+ color: rgb(220,220,220);
+ transition: color 200ms ease-in-out;
 }
 
- .bootstrap-typeahead-input ::-webkit-input-placeholder {
-   color: rgb(120,120,120);
-   transition: color 200ms ease-in-out;
+.bootstrap-typeahead-input ::-webkit-input-placeholder {
+  color: rgb(120,120,120);
+  transition: color 200ms ease-in-out;
 }
- .bootstrap-typeahead-input ::-moz-placeholder {
-   color: rgb(120,120,120);
-   transition: color 200ms ease-in-out;
+.bootstrap-typeahead-input ::-moz-placeholder {
+  color: rgb(120,120,120);
+  transition: color 200ms ease-in-out;
 }
- .bootstrap-typeahead-input ::-ms-input-placeholder {
-   color: rgb(120,120,120);
-   transition: color 200ms ease-in-out;
+.bootstrap-typeahead-input ::-ms-input-placeholder {
+  color: rgb(120,120,120);
+  transition: color 200ms ease-in-out;
 }
