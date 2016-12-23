@@ -1,13 +1,14 @@
 .bomselect {
+  min-width: 300px;
   max-width: 380px;
   margin-right: 11px;
   border-radius: 4px;
 }
 
 .bomselect .dropdown-menu {
+  width:calc(100% + 36px);
   max-height: calc(100vh - 192px) !important;
   background-color: rgba(255, 255, 255, 0.9);
-  width: 378px;
   margin-left: 1px;
   margin-top: 1px;
 }
@@ -16,11 +17,6 @@
   padding-left: 2px;
 }
 
-@media screen and (max-width: 410px) {
-  .bomselect .dropdown-menu {
-    width: 316px;
-  }
-}
 
 .bomselect:hover {
   background-color: rgba(255, 255, 255, 1);
@@ -69,27 +65,31 @@
 }
 
 .bomselect:hover .bootstrap-typeahead-input ::-webkit-input-placeholder {
- color: rgb(220,220,220);
- transition: color 200ms ease-in-out;
-}
-.bomselect:hover .bootstrap-typeahead-input ::-moz-placeholder {
- color: rgb(220,220,220);
- transition: color 200ms ease-in-out;
-}
-.bomselect:hover .bootstrap-typeahead-input :-ms-input-placeholder {
- color: rgb(220,220,220);
- transition: color 200ms ease-in-out;
+  color: rgb(220, 220, 220);
+  transition: color 200ms ease-in-out;
 }
 
-.bootstrap-typeahead-input ::-webkit-input-placeholder {
-  color: rgb(120,120,120);
+.bomselect:hover .bootstrap-typeahead-input ::-moz-placeholder {
+  color: rgb(220, 220, 220);
   transition: color 200ms ease-in-out;
 }
-.bootstrap-typeahead-input ::-moz-placeholder {
-  color: rgb(120,120,120);
+
+.bomselect:hover .bootstrap-typeahead-input :-ms-input-placeholder {
+  color: rgb(220, 220, 220);
   transition: color 200ms ease-in-out;
 }
-.bootstrap-typeahead-input ::-ms-input-placeholder {
-  color: rgb(120,120,120);
+
+.bomselect .bootstrap-typeahead-input ::-webkit-input-placeholder {
+  color: rgb(120, 120, 120);
+  transition: color 200ms ease-in-out;
+}
+
+.bomselect .bootstrap-typeahead-input ::-moz-placeholder {
+  color: rgb(120, 120, 120);
+  transition: color 200ms ease-in-out;
+}
+
+.bomselect .bootstrap-typeahead-input ::-ms-input-placeholder {
+  color: rgb(120, 120, 120);
   transition: color 200ms ease-in-out;
 }
