@@ -114,6 +114,11 @@ var BomSelect = function (_React$Component) {
   }
 
   _createClass(BomSelect, [{
+    key: 'componentWillReceiveProps',
+    value: function componentWillReceiveProps() {
+      this.refs.typeahead.getInstance().clear();
+    }
+  }, {
     key: 'componentDidMount',
     value: function componentDidMount() {
       this.refs.typeahead.getInstance()._handleKeydown = this.handleKeydown;
