@@ -5,9 +5,6 @@ import Highlight from 'react-highlighter';
 import './style.css';
 
 export default class BomSelect extends React.Component {
-  componentWillReceiveProps() {
-    this.refs.typeahead.getInstance().clear();
-  }
   componentDidMount() {
     this.refs.typeahead.getInstance()._handleKeydown = this.handleKeydown;
   }
