@@ -20,8 +20,8 @@ export default class BomSelect extends React.Component {
                  maxResults={200}
                  paginate={true}
                  placeholder={this.props.placeholder}/>
-      <InputGroup.Addon>
-        <i className="fa fa-search" aria-hidden="true"></i>
+      <InputGroup.Addon onClick={this.props.onAddonClick}>
+        {this.props.addon ? this.props.addon : <i className="fa fa-search" aria-hidden="true"></i>}
       </InputGroup.Addon>
     </InputGroup>
   )

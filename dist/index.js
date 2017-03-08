@@ -56,7 +56,7 @@ var BomSelect = function (_React$Component) {
         onFocus: _this.onFocus,
         maxResults: 200,
         paginate: true,
-        placeholder: _this.props.placeholder }), _react2.default.createElement(_reactBootstrap.InputGroup.Addon, null, _react2.default.createElement('i', { className: 'fa fa-search', 'aria-hidden': 'true' })));
+        placeholder: _this.props.placeholder }), _react2.default.createElement(_reactBootstrap.InputGroup.Addon, { onClick: _this.props.onAddonClick }, _this.props.addon ? _this.props.addon : _react2.default.createElement('i', { className: 'fa fa-search', 'aria-hidden': 'true' })));
     }, _this.renderChildren = function (props, option, idx) {
       var searchString = props.text;
       var labeltext = option.label;

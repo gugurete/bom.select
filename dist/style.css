@@ -4,18 +4,28 @@
   border-radius: 4px;
 }
 
+.bomselect .input-group {
+  position: relative;
+}
+
+.bomselect .open {
+  position: initial !important;
+}
+
 .bomselect .dropdown-menu {
-  width:calc(100% + 36px);
+  width: calc(100% - 2px);
   max-height: calc(100vh - 192px) !important;
   background-color: rgba(255, 255, 255, 0.9);
   margin-left: 1px;
-  margin-top: 1px;
+  margin-right: 14px;
+  margin-top: 0px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 
 .bomselect .dropdown-menu .row {
   padding-left: 2px;
 }
-
 
 .bomselect:hover {
   background-color: rgba(255, 255, 255, 1);
@@ -35,6 +45,7 @@
 .bomselect .bootstrap-typeahead-input input {
   padding-left: 12px;
   color: rgb(51, 51, 51);
+  text-overflow: ellipsis;
 }
 
 .bomselect .form-control {
@@ -56,11 +67,17 @@
   border: 1px solid rgba(51, 51, 51, 0.2);
   border-left: none;
   color: rgba(51, 51, 51, 0.5);
+  cursor: default;
 }
 
 .bomselect:hover .input-group-addon {
   color: rgb(51, 51, 51);
   transition: color 200ms ease-in-out;
+}
+
+/* what the heck is this, just sits there and does nothing ? */
+.bomselect .bootstrap-typeahead-input-hint {
+  display: none !important;
 }
 
 .bomselect:hover .bootstrap-typeahead-input ::-webkit-input-placeholder {
