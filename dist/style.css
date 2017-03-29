@@ -42,6 +42,13 @@
   transition: background-color 200ms ease-in-out;
 }
 
+.bomselect .bootstrap-typeahead-input-main {
+  border: none;
+  font-size: 16px;
+  line-height: 22.8571px;
+  height:38px;
+}
+
 .bomselect .bootstrap-typeahead-input input {
   padding-left: 12px;
   color: rgb(51, 51, 51);
@@ -68,6 +75,7 @@
   border-left: none;
   color: rgba(51, 51, 51, 0.5);
   cursor: default;
+  padding: 7px 12px 5px 12px;
 }
 
 .bomselect:hover .input-group-addon {
