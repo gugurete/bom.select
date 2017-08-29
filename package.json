@@ -1,6 +1,6 @@
 {
   "name": "bom.select",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "bom.select",
   "author": "Robert Jakab <gugurete@gmail.com>",
   "repository": {
@@ -13,6 +13,7 @@
     "react-dom": "^15.4.1"
   },
   "dependencies": {
+    "react-bootstrap": "0.30.3",
     "react-bootstrap-typeahead": "0.9.1",
     "react-highlighter": "0.4.0"
   },
